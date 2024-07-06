@@ -1,0 +1,143 @@
+
+.iconHeader{
+    display: flex;
+    flex-flow: unwrap;
+    margin: 1.5rem;
+    border-bottom: 3px solid #008CBA;
+    
+}
+.iconImage{
+    width: 100px;
+}
+
+.titleClass{
+    font-size: 1.5rem;
+}
+
+.btnWrapper{
+    margin: 1.5rem;
+    text-align: end;
+}
+.addBtn {
+    background-color: blue;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .addBtn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .formDesign{
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    margin: 10px 30px 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+  }
+  label{
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+
+  input{
+    padding: 15px 20px 15px 20px;
+    width: 48%;
+    margin: 1%;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+
+  select{
+    padding: 15px 20px 15px 20px;
+    width: 50%;
+    margin: 1%;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+
+  .taskList{
+    margin: 1%;
+    display: flex;
+    background: lavender;
+    padding: 20px;
+    justify-content: space-between;
+    place-items: baseline;
+    flex-flow: wrap;
+  }
+
+  .formWrapper{
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .description{
+    margin: 0px 10px 0px 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #008CBA;
+  }
+
+  .status{
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 200;
+  }
+
+  .edit{
+    color: blue;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .counterWrapper{
+    margin: 1%;
+  }
+
+  .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .counter button {
+    font-size: 1.5rem;
+    padding: 15px 20px 15px 20px;
+    color: #A54946;
+    border: 1px solid #A54946;
+    cursor: pointer;
+  }
+  
+  .counter button:hover {
+    background-color: #A54946;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .counter #count {
+    font-size: 2rem;
+    padding: 12px 20px 12px 20px;
+    border-radius: 0px;
+    width: 10%;
+    text-align: center;
+    margin: 0px;
+    background-color: #F7EAE9;
+    border: 1px solid #A54946;
+    color: #A54946;
+  }
+  
